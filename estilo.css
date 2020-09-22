@@ -1,0 +1,191 @@
+html, body, div, span, h1, h2, h3, p,  a, img, ul, li, footer, header, nav, section, center  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    line-height: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+.personagem_riven {
+
+    color: rgba(81, 247, 59, 0.726);
+
+}
+.personagem_yasuo  {
+
+    color: rgb(71, 164, 240);
+}
+
+  #section_da_riven {
+  padding: 2%;
+  display: flex;
+ }
+
+    #section_da_riven div {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  
+    }
+
+ #section_da_riven p {
+     text-align: left;
+     width: 35%;
+     font-size: 30px;
+     margin-right: 19%;
+     font-weight: 600px;
+     padding: 0px;
+
+      }
+
+
+    #section_da_riven img {
+       
+        width: 500px;
+        
+    }
+
+    #section_da_riven {
+        display: flex;
+        margin-top: 0%;
+        background: rgb(19, 129, 19);
+        padding: 4%;
+
+    }
+    #section_da_riven div p {
+        color: rgb(170, 219, 170);
+    }
+
+    #section_da_riven .link_riven_lore {
+
+        border: 1px solid orange;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 20px 20px;
+        color: white;
+        background:orange;
+        
+
+    }
+    #section_da_riven .link_riven_lore:hover {
+
+        background: transparent;
+        color: white;
+    
+    }
+
+    
+
+
+
+    #section_do_yasuo {
+        padding: 2%;
+        display: flex;
+       }
+      
+          #section_do_yasuo div {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        
+          }
+      
+       #section_do_yasuo p {
+           text-align: left;
+           width: 35%;
+           font-size: 30px;
+           margin-right: 19%;
+           font-weight: bold;
+           
+       }
+
+         #section_do_yasuo .link_lore_yasuo {
+
+            border: 1px solid orange;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 20px 20px;
+            color: white;
+            background:orange;
+        
+            
+         }
+
+         #section_do_yasuo .link_lore_yasuo:hover {
+
+            background: transparent;
+            color: white;
+        
+         }
+
+      
+          #section_do_yasuo img {
+             
+              width: 500px;
+              
+          }
+
+         #section_do_yasuo {
+            display: flex;
+            margin-top: 0%;
+            background: rgb(39, 39, 190);
+            padding: 4%;
+         }
+         #section_do_yasuo div p {
+             color: rgb(213, 232, 235);
+         }
+
+
+
+::-webkit-scrollbar {
+    
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(99, 64, 64);
+}
+::-webkit-scrollbar-thumb {
+
+    background: rgb(154, 154, 155);
+}
+::-webkit-scrollbar-thumb :hover {
+    background: rgb(19, 1, 1);
+}
+
+.float {
+    right: 33px;
+    position: fixed;
+    height: 60px;
+    bottom: 35px;
+}
+
+#lol {
+
+    background: beige;
+    color: black;
+    position: fixed;
+    width: 110px;
+    bottom: 60px;
+    right: 94px;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    visibility: hidden
+}
